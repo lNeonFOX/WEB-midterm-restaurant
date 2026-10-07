@@ -226,7 +226,6 @@ img {
     font-size: 0.75rem;
     color: var(--color-muted);
 }
-<<<<<<< HEAD
 /* common part for all pages */
 
 /* Home page styling */
@@ -394,7 +393,6 @@ img {
 .page-intro { padding-top: 60px; padding-bottom: 30px; }
 .page-intro h1 { max-width: 850px; }
 .intro-copy { max-width: 620px; margin-top: 22px; }
-=======
 .page-intro {
     padding-top: 60px;
     padding-bottom: 30px; 
@@ -406,7 +404,6 @@ img {
     max-width: 620px;
     margin-top: 22px;
 }
->>>>>>> bcc109e0a6c5d652f1083f0f4d9ff081915be520
 
 .form-panel { 
     background: var(--color-white);
