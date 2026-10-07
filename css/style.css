@@ -1,0 +1,22 @@
+.page-intro { padding-top: 60px; padding-bottom: 30px; }
+.page-intro h1 { max-width: 850px; }
+.intro-copy { max-width: 620px; margin-top: 22px; }
+
+.form-panel { background: var(--color-white); border: 1px solid var(--color-line); border-radius: var(--radius); padding: 32px; }
+.form-panel h2 { font-size: 2rem; }
+.demo-notice { font-size: .85rem; background: #efeee3; padding: 14px; border-radius: 6px; }
+.form-label { font-size: .85rem; font-weight: 600; }
+.form-control, .form-select { background-color: #fdfcf7; border-color: #c6cbbb; padding: 12px; color: var(--color-ink); }
+.form-control:focus, .form-select:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px #b34c2d25; }
+
+.info-panel { background: #e9eadd; padding: 35px; border-radius: var(--radius); }
+.info-panel h2 { font-size: 2.4rem; }
+.detail-list { padding: 0; list-style: none; margin: 25px 0; }
+.detail-list li { padding: 12px 0; border-bottom: 1px solid #cdd2bd; font-size: .9rem; }
+
+@media (max-width: 575px) {
+    .page-intro { padding-top: 40px; padding-bottom: 30px; }
+    .page-intro h1 { font-size: 2.6rem; }
+    .form-panel, .info-panel { padding: 22px; }
+    .info-panel h2 { font-size: 2rem; }
+}
