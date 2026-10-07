@@ -226,56 +226,185 @@ img {
     font-size: 0.75rem;
     color: var(--color-muted);
 }
-.page-intro { padding-top: 60px; padding-bottom: 30px; }
-.page-intro h1 { max-width: 850px; }
-.intro-copy { max-width: 620px; margin-top: 22px; }
-
-.form-panel { background: var(--color-white); border: 1px solid var(--color-line); border-radius: var(--radius); padding: 32px; }
-.form-panel h2 { font-size: 2rem; }
-.demo-notice { font-size: .85rem; background: #efeee3; padding: 14px; border-radius: 6px; }
-.form-label { font-size: .85rem; font-weight: 600; }
-.form-control, .form-select { background-color: #fdfcf7; border-color: #c6cbbb; padding: 12px; color: var(--color-ink); }
-.form-control:focus, .form-select:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px #b34c2d25; }
-
-.info-panel { background: #e9eadd; padding: 35px; border-radius: var(--radius); }
-.info-panel h2 { font-size: 2.4rem; }
-.detail-list { padding: 0; list-style: none; margin: 25px 0; }
-.detail-list li { padding: 12px 0; border-bottom: 1px solid #cdd2bd; font-size: .9rem; }
-
-@media (max-width: 575px) {
-    .page-intro { padding-top: 40px; padding-bottom: 30px; }
-    .page-intro h1 { font-size: 2.6rem; }
-    .form-panel, .info-panel { padding: 22px; }
-    .info-panel h2 { font-size: 2rem; }
+.page-intro {
+    padding-top: 60px;
+    padding-bottom: 30px; 
 }
-.page-intro { padding-top: 60px; padding-bottom: 45px; }
-.page-intro h1 { max-width: 850px; }
-.intro-copy { max-width: 620px; margin-top: 22px; }
+.page-intro h1 { 
+    max-width: 850px; 
+}
+.intro-copy { 
+    max-width: 620px;
+    margin-top: 22px;
+}
 
-.form-panel { background: var(--color-white); border: 1px solid var(--color-line); border-radius: var(--radius); padding: 32px; }
-.form-panel h2 { font-size: 2rem; }
-.demo-notice { font-size: .85rem; background: #efeee3; padding: 14px; border-radius: 6px; }
-.form-label { font-size: .85rem; font-weight: 600; }
-.form-control, .form-select { background-color: #fdfcf7; border-color: #c6cbbb; padding: 12px; color: var(--color-ink); }
-.form-control:focus, .form-select:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px #b34c2d25; }
+.form-panel { 
+    background: var(--color-white);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius); 
+    padding: 32px; 
+}
+.form-panel h2 { 
+    font-size: 2rem; 
+}
+.demo-notice { 
+    font-size: .85rem;
+    background: #efeee3; 
+    padding: 14px; border-radius: 6px;
+}
+.form-label {
+    font-size: .85rem;
+    font-weight: 600;
+}
+.form-control, .form-select { 
+    background-color: #fdfcf7;
+    border-color: #c6cbbb; 
+    padding: 12px; color: var(--color-ink); 
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px #b34c2d25;
+}
 
-.delivery-steps { padding-left: 22px; }
-.delivery-steps li { padding: 8px 0 8px 6px; }
-.order-line { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--color-line); }
-.order-line label { font-weight: 600; font-size: .9rem; }
-.order-line label span { display: block; font-size: .8rem; font-weight: 400; }
-.quantity-input { width: 85px; flex-shrink: 0; }
-.order-summary { display: flex; justify-content: space-between; gap: 20px; padding-top: 20px; font-size: .9rem; }
-
-.info-panel { background: #e9eadd; padding: 35px; border-radius: var(--radius); }
-.info-panel h2 { font-size: 2.4rem; }
-.detail-list { padding: 0; list-style: none; margin: 25px 0; }
-.detail-list li { padding: 12px 0; border-bottom: 1px solid #cdd2bd; font-size: .9rem; }
+.info-panel { 
+    background: #e9eadd; 
+    padding: 35px; border-radius: var(--radius);
+}
+.info-panel h2 { 
+    font-size: 2.4rem; 
+}
+.detail-list { 
+    padding: 0; 
+    list-style: none;
+    margin: 25px 0;
+}
+.detail-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #cdd2bd;
+    font-size: .9rem; 
+}
 
 @media (max-width: 575px) {
-    .page-intro { padding-top: 40px; padding-bottom: 30px; }
-    .page-intro h1 { font-size: 2.6rem; }
-    .form-panel, .info-panel { padding: 22px; }
-    .info-panel h2 { font-size: 2rem; }
-    .order-summary { gap: 10px; }
+    .page-intro { 
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .page-intro h1 { 
+        font-size: 2.6rem;
+    }
+    .form-panel, .info-panel { 
+        padding: 22px;
+    }
+    .info-panel h2 {
+        font-size: 2rem;
+    }
+}
+.page-intro {
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.page-intro h1 { 
+    max-width: 850px;
+}
+.intro-copy {
+    max-width: 620px;
+    margin-top: 22px; 
+}
+
+.form-panel { 
+    background: var(--color-white);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius); padding: 32px; 
+}
+.form-panel h2 { 
+    font-size: 2rem;
+}
+.demo-notice { 
+    font-size: .85rem; 
+    background: #efeee3;
+    padding: 14px; border-radius: 6px;
+}
+.form-label { 
+    font-size: .85rem;
+    font-weight: 600; 
+}
+.form-control, .form-select {
+    background-color: #fdfcf7; 
+    border-color: #c6cbbb; padding: 12px;
+    color: var(--color-ink); 
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--color-accent); 
+    box-shadow: 0 0 0 3px #b34c2d25; 
+}
+
+.delivery-steps { 
+    padding-left: 22px;
+}
+.delivery-steps li {
+    padding: 8px 0 8px 6px; 
+}
+.order-line { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-line);
+}
+.order-line label {
+    font-weight: 600; 
+    font-size: .9rem;
+}
+.order-line label span { 
+    display: block; font-size: .8rem;
+    font-weight: 400; 
+}
+.quantity-input { 
+    width: 85px;
+    flex-shrink: 0; 
+}
+.order-summary {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px; padding-top: 20px;
+    font-size: .9rem;
+}
+
+.info-panel { 
+    background: #e9eadd; 
+    padding: 35px; 
+    border-radius: var(--radius);
+}
+.info-panel h2 { 
+    font-size: 2.4rem;
+}
+.detail-list {
+    padding: 0; 
+    list-style: none;
+    margin: 25px 0;
+}
+.detail-list li { 
+    padding: 12px 0; 
+    border-bottom: 1px solid #cdd2bd;
+    font-size: .9rem; 
+}
+
+@media (max-width: 575px) {
+    .page-intro {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .page-intro h1 { 
+        font-size: 2.6rem; 
+    }
+    .form-panel, .info-panel { 
+        padding: 22px; 
+    }
+    .info-panel h2 { 
+        font-size: 2rem;
+    }
+    .order-summary {
+        gap: 10px;
+    }
 }
