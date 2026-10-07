@@ -226,6 +226,170 @@ img {
     font-size: 0.75rem;
     color: var(--color-muted);
 }
+/* common part for all pages */
+
+/* Home page styling */
+.hero {
+    display: grid;
+    grid-template-columns: 1.08fr 1fr;
+    align-items: center;
+    gap: 64px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hero-copy > p:not(.eyebrow) {
+    max-width: 430px;
+    margin-top: 24px;
+}
+
+.hero h1 em {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 28px 0;
+}
+
+.hero-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 34px 0 0;
+    font-size: 0.72rem;
+    color: var(--color-muted);
+}
+
+.hero-details li::before {
+    content: "•";
+    color: var(--color-accent);
+    margin-right: 7px;
+}
+
+.hero-art {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.hero-art img {
+    border-radius: 160px 160px 16px 16px;
+    width: 100%;
+}
+
+.hero-note {
+    position: absolute;
+    right: -8px;
+    bottom: -6px;
+    background: var(--color-white);
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    padding: 17px 24px;
+    transform: rotate(-6deg);
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    box-shadow: 0 8px 24px #283b2e12;
+}
+
+.occasion-strip {
+    background: var(--color-ink);
+    color: var(--color-cream);
+    padding: 20px 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+}
+
+.service-panel {
+    background: #e9eadd;
+    border-radius: var(--radius);
+    padding: 35px;
+    height: 100%;
+}
+
+.service-panel h3 {
+    font-size: 2rem;
+}
+
+.service-panel-dark {
+    background: var(--color-ink);
+    color: var(--color-cream);
+}
+
+.service-panel-dark p {
+    color: #e0e3d7;
+}
+
+.step-number {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+    color: var(--color-accent);
+}
+
+.service-panel-dark .step-number {
+    color: #f0b698;
+}
+
+/* dish cards */
+.dish-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.dish-card {
+    background: var(--color-white);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.dish-card img {
+    width: 100%;
+    aspect-ratio: 6 / 5;
+    object-fit: cover;
+}
+
+.dish-content {
+    padding: 24px;
+}
+
+.dish-content .eyebrow {
+    margin-bottom: 10px;
+    font-size: 0.65rem;
+}
+
+.dish-content p:not(.eyebrow) {
+    font-size: 0.9rem;
+    min-height: 48px;
+}
+
+.dish-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    border-top: 1px solid var(--color-line);
+    padding-top: 17px;
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: 700;
+}
+
+
+
+/* delivery */
 .page-intro { padding-top: 60px; padding-bottom: 30px; }
 .page-intro h1 { max-width: 850px; }
 .intro-copy { max-width: 620px; margin-top: 22px; }
