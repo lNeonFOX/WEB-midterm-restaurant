@@ -658,3 +658,11 @@ font-size: 0.85rem;
     var(--radius);
 }
 .story-grid h2{margin-bottom: 24px;}
+
+.value-card {
+    border-top: 1px solid var(--color-line);
+    padding-top: 25px;
+}
+.value-card .step-number{
+    margin-bottom: 15px;
+}
