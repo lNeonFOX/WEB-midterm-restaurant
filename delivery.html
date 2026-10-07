@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olive & Ember restaurant: seasonal dishes, table booking, and delivery. Student demonstration website.">
+    <title>Delivery | Olive &amp; Ember</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Olive and Ember home">olive<span>&amp;</span>ember<span class="brand-caption">SEASONAL KITCHEN</span></a>
+            <nav class="site-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="booking.html">Booking</a>
+                    <a href="delivery.html" aria-current="page">Delivery</a>
+                    <a href="about.html">About</a>
+            </nav>
+            <a class="btn btn-brand header-book" href="booking.html">Book a table <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="page-intro container">
+            <p class="eyebrow">YOUR TABLE, OUR FOOD</p>
+            <h1>A little comfort, delivered.</h1>
+            <p class="intro-copy">Explore our delivery options and practise filling in a sample order form.</p>
+        </section>
+        <section class="container section-space pt-0" aria-labelledby="order-title">
+            <div class="row g-4 g-lg-5">
+                <div class="col-12 col-lg-7">
+                    <form id="delivery-form" class="form-panel" action="delivery.html" method="get">
+                        <h2 id="order-title">Build your order</h2>
+                        <p class="demo-notice">Form layout demonstration: you can select quantities and fill in your details. Ordering and automatic totals are unavailable.</p>
+                        <fieldset id="delivery-fields">
+                            <legend class="h5">Choose your dishes</legend>
+                                <div class="order-line"><label for="qty-salad">Garden bowl<span class="muted">2,800 KZT each</span></label><input class="form-control quantity-input" id="qty-salad" type="number" min="0" max="20" step="1" value="0" required></div>
+                                <div class="order-line"><label for="qty-pasta">Roasted tomato pasta<span class="muted">3,900 KZT each</span></label><input class="form-control quantity-input" id="qty-pasta" type="number" min="0" max="20" step="1" value="0" required></div>
+                                <div class="order-line"><label for="qty-pizza">Basil & mozzarella pizza<span class="muted">4,500 KZT each</span></label><input class="form-control quantity-input" id="qty-pizza" type="number" min="0" max="20" step="1" value="0" required></div>
+                                <div class="order-line"><label for="qty-cake">Chocolate cake<span class="muted">2,200 KZT each</span></label><input class="form-control quantity-input" id="qty-cake" type="number" min="0" max="20" step="1" value="0" required></div>
+                                <div class="order-line"><label for="qty-lemonade">Homemade lemonade<span class="muted">1,200 KZT each</span></label><input class="form-control quantity-input" id="qty-lemonade" type="number" min="0" max="20" step="1" value="0" required></div>
+                            <div class="order-summary"><span>Flat delivery fee</span><span>800 KZT</span></div>
+                            <div class="row g-3 mt-2">
+                                <div class="col-12 col-md-6"><label class="form-label" for="delivery-name">Full name</label><input class="form-control" id="delivery-name" type="text" minlength="2" maxlength="80" autocomplete="name" required></div>
+                                <div class="col-12 col-md-6"><label class="form-label" for="delivery-phone">Phone number</label><input class="form-control" id="delivery-phone" type="tel" autocomplete="tel" pattern="[+0-9() .-]{7,25}" title="Enter 7–25 characters using digits, spaces, +, parentheses, periods, or hyphens" required></div>
+                                <div class="col-12"><label class="form-label" for="delivery-address">Delivery address</label><textarea class="form-control" id="delivery-address" rows="2" minlength="5" maxlength="200" autocomplete="street-address" required></textarea></div>
+                            </div>
+                            <button class="btn btn-brand mt-4" type="submit" disabled>Ordering unavailable in demo</button>
+                            <button class="btn btn-outline-secondary mt-4" type="reset">Clear form</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5"><aside class="info-panel"><p class="eyebrow">FROM OUR KITCHEN TO YOUR DOOR</p><h2>Dinner, made easy.</h2><ol class="delivery-steps"><li>Choose your dishes and quantities.</li><li>Enter your delivery details.</li><li>Review the dish prices and delivery information.</li></ol><h3 class="h5 mt-4">Sample delivery information</h3><ul class="detail-list"><li>Service area: central Astana</li><li>Hours: 12:00–21:00</li><li>Estimated time: 30–45 minutes</li><li>Flat delivery fee: 800 KZT</li></ul><p class="small">These are fictional details for the project demonstration.</p></aside></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="index.html">olive<span>&amp;</span>ember</a>
+                <p>Good food. Warm company. A little everyday joy.</p>
+                <p class="small">Fictional restaurant · Student project</p>
+            </div>
+            <div>
+                <h2 class="footer-heading">Visit &amp; contact</h2>
+                <address>12 Garden Street, Astana<br><a href="mailto:hello@example.com">hello@example.com</a></address>
+                <p>Daily, 12:00–22:00</p>
+            </div>
+            <div>
+                <h2 class="footer-heading">Find inspiration</h2>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span class="visually-hidden">(platform homepage; opens in a new tab)</span> ↗</a><br>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <span class="visually-hidden">(platform homepage; opens in a new tab)</span> ↗</a>
+                <p class="small mt-2">Social links lead to platform homepages.</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">© 2026 Olive &amp; Ember. Built for our midterm project.</div>
+    </footer>
+</body>
+</html>
