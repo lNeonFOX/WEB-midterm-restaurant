@@ -176,6 +176,7 @@ img {
     margin: 0;
 }
 
+/*Booking CSS*/
 .page-intro {
     padding-top: 60px;
     padding-bottom: 45px;
@@ -298,6 +299,8 @@ img {
     .info-panel h2 {
         font-size: 2rem;
     }
+
+    /*Dlivery CSS*/
 }
 .page-intro {
     padding-top: 60px;
