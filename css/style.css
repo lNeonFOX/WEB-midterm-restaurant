@@ -425,9 +425,7 @@ padding: 18px;
 .menu-table thead{
 font-size: 0.8rem;
 }
-.menu-table tbody tr:nth-child(even) > * {
-background: #eceee3;
-}
+
 .menu-table caption{
 color: var(--color-muted);
 font-size: 0.85rem;
